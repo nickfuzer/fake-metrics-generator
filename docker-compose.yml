@@ -6,6 +6,6 @@ services:
     command: ['node', '/app/main.node.js']
     restart: unless-stopped
     ports:
-      - 5000:5000
+      - 9007:5000
     volumes:
       - ./dist:/app
