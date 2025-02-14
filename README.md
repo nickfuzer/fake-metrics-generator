@@ -7,10 +7,11 @@ This project generates fake metrics that can be scraped and pushed to a promethe
 ## Running from checkout
 
 1. Install dependencies `yarn`
-2. Copy src/config/config.json.example to src/config/config.json and edit it to your liking.
+  `cp yarn install`
+3. Copy src/config/config.json.example to src/config/config.json and edit it to your liking.
    See [configuration](#configuration) for more details.
    `cp src/config/config.json.example src/config/config.json`
-3. Run the server
+4. Run the server
 
 ```bash
 # 1. via docker compose
