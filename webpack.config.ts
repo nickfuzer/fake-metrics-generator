@@ -3,7 +3,11 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 import ESLintPlugin from 'eslint-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import path from 'path';
-import { Configuration } from 'webpack';
+import webpack from 'webpack';
+import {fileURLToPath} from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+type Configuration =webpack.Configuration;
 
 const config = async (env: any): Promise<Configuration> => ({
   mode: env.production ? 'production' : 'development',
