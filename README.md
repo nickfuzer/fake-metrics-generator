@@ -35,11 +35,11 @@ yarn start
 3. Run the server
 
 The release archive includes a precompiled bundle that only needs nodejs to run. It also includes a `docker-compose.yml`
-file which will run the server in a docker container exposing port `5000`
+file which will run the server in a docker container exposing port `9007`
 
 ## Access the metrics
 
-After you have the server running all you need to do is point your browser or scraper at `localhost:5000/metrics`
+After you have the server running all you need to do is point your browser or scraper at `localhost:9007/metrics`
 
 ## Configuration
 
