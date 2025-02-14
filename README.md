@@ -8,11 +8,11 @@ This project generates fake metrics that can be scraped and pushed to a promethe
 
 1. Install dependencies `yarn`
    
-`yarn install`
+```yarn install```
 
 2. Install node
    
-`brew install node`
+```brew install node```
 
 3. Copy src/config/config.json.example to src/config/config.json and edit it to your liking.
    See [configuration](#configuration) for more details.
